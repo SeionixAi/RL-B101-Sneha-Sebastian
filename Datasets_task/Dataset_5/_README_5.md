@@ -75,14 +75,14 @@ The following preprocessing steps were applied:
 * Clear seasonal patterns influence pricing.  
 * Significant multicollinearity exists among aggregated volume features.
 
-## **Modeling Challenges**
+## **5\. Modeling Challenges**
 
 * Multicollinearity among volume and aggregate features.  
 * High skewness in numerical variables.  
 * High-cardinality categorical feature (`region`).  
 * Potential seasonal dependency in pricing.
 
-## **Potential Next Modeling Steps**
+## **6\. Potential Next Modeling Steps**
 
 * Train baseline Linear Regression model.  
 * Apply Ridge Regression to address multicollinearity.  
